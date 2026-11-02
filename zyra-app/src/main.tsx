@@ -14,6 +14,9 @@ import MissaoDetalhe from './routes/MissaoDetalhe';
 import Integrantes from './routes/Integrantes';
 import Faq from './routes/Faq';
 import Contato from './routes/Contato';
+import Painel from './routes/Painel';
+import PainelAdmin from './routes/PainelAdmin';
+import PainelUsuario from './routes/PainelUsuario';
 import Error from './routes/Error';
 
 
@@ -27,6 +30,9 @@ const router = createBrowserRouter([
     {path: "/integrantes", element:<Integrantes/>},
     {path: "/faq", element:<Faq/>},
     {path: "/contato", element:<Contato/>},
+    {path: "/painel", element:<Painel/>},
+    {path: "/painel/admin", element:<PainelAdmin/>},
+    {path: "/painel/usuario", element:<PainelUsuario/>},
   ]}]);
 
 // RouterProvider conecta a lista de rotas (router) ao restante da interface
