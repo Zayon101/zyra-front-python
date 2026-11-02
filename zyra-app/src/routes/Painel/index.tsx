@@ -15,7 +15,7 @@ export default function Painel() {
                         Conheça as áreas do painel Zyra para acompanhar pontos, passagens e a gestão do projeto.
                     </p>
                     <p className="mt-8 inline-flex rounded-full border border-white/30 px-5 py-2 text-[1.3rem] text-white/90">
-                        Prévia visual · Integração com Python em preparação
+                        Área administrativa conectada ao Python local
                     </p>
                 </div>
             </section>
@@ -25,7 +25,7 @@ export default function Painel() {
                     <p className="mb-3 text-[1.3rem] font-bold uppercase tracking-[0.18em] text-brand">Escolha sua área</p>
                     <h2 id="titulo-acessos" className="font-title text-[2.8rem] font-bold text-title tablet:text-[3.6rem]">Um painel para cada necessidade</h2>
                     <p className="mt-4 text-[1.6rem] leading-[1.7] text-text-dark">
-                        As páginas abaixo mostram como serão organizados os recursos. Nesta etapa, ainda não existe autenticação ou acesso a dados reais.
+                        A área administrativa permite operações reais no Oracle via API Python local. A área pessoal será conectada na próxima etapa.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 items-stretch gap-8 tablet:grid-cols-2 tablet:gap-10">
@@ -49,7 +49,7 @@ export default function Painel() {
                     />
                 </div>
                 <p className="mt-10 text-[1.3rem] leading-[1.6] text-text-dark">
-                    Este é um protótipo visual. A identificação apenas por nome ou ID não comprova identidade e não será tratada como autenticação segura.
+                    Uso acadêmico local: a área administrativa ainda não possui autenticação e não deve ser publicada. A identificação por nome ou ID também não comprova identidade.
                 </p>
             </section>
         </main>
