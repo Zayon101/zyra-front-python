@@ -9,6 +9,7 @@ const LINKS_NAVEGACAO: LinkNavegacao[] = [
     { caminho: '/integrantes', rotulo: 'Integrantes' },
     { caminho: '/faq', rotulo: 'FAQ' },
     { caminho: '/contato', rotulo: 'Contato' },
+    { caminho: '/painel', rotulo: 'Painel' },
 ];
 
 export default function Cabecalho() {
@@ -76,7 +77,7 @@ export default function Cabecalho() {
                     menuAberto ? 'max-h-[40rem] opacity-100' : 'pointer-events-none max-h-0 opacity-0'
                 } desktop:static desktop:max-h-none desktop:w-auto desktop:overflow-visible desktop:border-none desktop:opacity-100 desktop:shadow-none desktop:pointer-events-auto`}
             >
-                <ul className="flex flex-col desktop:flex-row desktop:items-center desktop:gap-16">
+                <ul className="flex flex-col desktop:flex-row desktop:items-center desktop:gap-6 xl:gap-12">
                     {LINKS_NAVEGACAO.map((link) => (
                         <li
                             key={link.caminho}
